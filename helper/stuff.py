@@ -22,7 +22,7 @@ async def up(event):
     ed = dt.now()
     v = ts(int((ed - uptime).seconds) * 1000)
     ms = (ed - stt).microseconds / 1000
-    p = f"🌋Pɪɴɢ = {ms}ms"
+    p = f"⚡Pɪɴɢ = {ms}ms"
     await event.reply(v + "\n" + p)
 
 
@@ -33,8 +33,8 @@ async def start(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/CompressorBot"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("SOURCE CODE", url="https://t.me/notgetanysource"),
+                Button.url("DEVELOPER", url="https://t.me/Kannada_Movies_World"),
             ],
         ],
     )
@@ -42,13 +42,13 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "**🐠 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options"
+        "**😁 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\n @Kannada_Movies_World"
     )
 
 
 async def ihelp(event):
     await event.edit(
-        "**🐠 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options",
+        "**😁 A Quality CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\n @Kannada_Movies_World",
         buttons=[Button.inline("BACK", data="beck")],
     )
 
@@ -56,12 +56,12 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hello `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.\n @Kannada_Movies_World",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("SOURCE CODE", url="https://t.me/notgetanysource),
+                Button.url("DEVELOPER", url="https://t.me/Kannada_Movies_World"),
             ],
         ],
     )
@@ -84,7 +84,7 @@ async def sencc(e):
 async def back(e):
     key = e.pattern_match.group(1).decode("UTF-8")
     await e.edit(
-        "🐠  **What To Do** 🐠",
+        "🤨  **What To Do** 🤨",
         buttons=[
             [
                 Button.inline("GENERATE SAMPLE", data=f"gsmpl{key}"),
