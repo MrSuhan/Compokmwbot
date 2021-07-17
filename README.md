@@ -2,7 +2,7 @@
 
 ### ᴍᴜʟᴛɪғᴜɴᴄᴛɪᴏɴ ǫᴜᴀʟɪᴛʏ ᴄᴏᴍᴘʀᴇssᴏʀ
 
-<a href="https://heroku.com/deploy?template=https://github.com/MrSuhan//tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/MrSuhan/Compokmwbot/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
