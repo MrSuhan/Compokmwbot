@@ -3,7 +3,7 @@
     "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
     "logo": "https://telegra.ph/file/5933956926e12b00dca2a.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
-    "repository": "https://github.com/1Danish-00/CompressorBot",
+    "repository": "https://github.com/MrSuhan/Compokmwbot",
     "success_url": "https://t.me/Kannada_Movies_World",
     "stack": "container",
     "env": {
